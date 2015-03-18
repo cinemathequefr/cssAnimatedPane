@@ -1,0 +1,21 @@
+body {
+  background-color: #69f;
+  position: relative;
+}
+
+.pane {
+  position: fixed;
+  top: 0; right: 0; bottom: 0; width: 40%;
+  padding: 24px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.pane2 {
+  position: fixed;
+  top: 48px; left: 48px; bottom: 48px; width: 20%;
+  padding: 24px;
+  background-color: #f33;
+  box-sizing: border-box;
+  opacity: 0.5; filter: alpha(opacity=50);
+}
